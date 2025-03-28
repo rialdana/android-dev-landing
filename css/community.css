@@ -1,0 +1,24 @@
+.community-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.community-card ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.community-card li {
+    margin-bottom: 0.5rem;
+}
+
+.community-card a {
+    color: #6200ee;
+    text-decoration: none;
+}
+
+.community-card a:hover {
+    text-decoration: underline;
+} 
